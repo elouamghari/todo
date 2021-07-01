@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/classificationsFragment">
+
+    <fragment
+        android:id="@+id/classificationsFragment"
+        android:name="com.elouamghari.todo.ui.classifications.list.ClassificationsFragment"
+        android:label="ClassificationsFragment"
+        tools:layout="@layout/fragment_classifications">
+        <action
+            android:id="@+id/action_classificationsFragment_to_todosFragment"
+            app:destination="@id/todosFragment"
+            app:enterAnim="@anim/navigation_enter_animation"
+            app:exitAnim="@anim/navigation_exit_animation"
+            app:popEnterAnim="@anim/navigation_pop_enter_animation"
+            app:popExitAnim="@anim/navigation_pop_exit_animation"/>
+    </fragment>
+    <fragment
+        android:id="@+id/todosFragment"
+        android:name="com.elouamghari.todo.ui.todos.list.TodosFragment"
+        android:label="TodosFragment"
+        tools:layout="@layout/fragment_todos"/>
+</navigation>

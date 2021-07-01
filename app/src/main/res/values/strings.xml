@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">todo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="classifications">Classifications</string>
+    <string name="welcome_mohamed">Welcome, Mohamed!</string>
+    <string name="todos">Todos</string>
+    <string name="classification">classification</string>
+    <string name="add_classification_button_description">add classification button</string>
+    <string name="add_classification">Add classification</string>
+    <string name="classification_name">classification name</string>
+    <string name="classification_description">classification description</string>
+    <string name="add_todo">Add Todo</string>
+    <string name="todo">todo</string>
+    <string name="edit_classification">Edit Classification</string>
+    <string name="delete_classification">Delete classification</string>
+    <string name="required_field">required field</string>
+    <string name="description">Description</string>
+    <string name="edit_todo">Edit todo</string>
+    <string name="delete_todo">Delete todo</string>
+    <string name="edit_todo_button_description">Edit todo button description</string>
+</resources>

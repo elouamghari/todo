@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="input_height">48dp</dimen>
+    <dimen name="spinner_height">48dp</dimen>
+    <dimen name="list_item_minimum_height">60dp</dimen>
+</resources>
