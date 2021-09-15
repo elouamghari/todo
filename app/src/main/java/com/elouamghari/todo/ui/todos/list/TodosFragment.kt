@@ -23,6 +23,7 @@ import com.elouamghari.todo.ui.todos.list.adapters.TodosAdapter
 import com.elouamghari.todo.ui.todos.list.constants.TodoArgumentsKeys
 import com.elouamghari.todo.ui.todos.list.viewmodels.TodoViewModel
 import com.elouamghari.todo.ui.todos.list.viewmodels.factories.TodoViewModelFactory
+import com.elouamghari.todo.utils.order
 
 class TodosFragment : Fragment() {
 
@@ -86,9 +87,7 @@ class TodosFragment : Fragment() {
     }
 
     private fun observeTodos(todos: List<Todo>?) {
-        val orderedTodos = todos?.sortedBy{todo ->
-            todo.order
-        }
+        val orderedTodos = todos?.order()
         adapter.submitList(orderedTodos)
     }
 
